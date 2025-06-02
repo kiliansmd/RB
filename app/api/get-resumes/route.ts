@@ -1,5 +1,5 @@
 import { NextResponse } from 'next/server';
-import { db } from '@/lib/firebase';
+import { db, isFirebaseMockMode } from '@/lib/firebase';
 import { withErrorHandling, withRateLimit } from '@/lib/api-middleware';
 import { searchSchema, createApiResponse } from '@/utils/validation';
 import { devConfig } from '@/config/dev.config';
@@ -11,9 +11,6 @@ export const GET = withRateLimit(100, 60000)(
     const url = new URL(request.url);
     const searchParams = url.searchParams;
 
-    // Use real Firebase data
-    console.log('🔥 Using Firebase data');
-
     const page = parseInt(searchParams.get('page') || '1');
     const limit = parseInt(searchParams.get('limit') || '10');
     const search = searchParams.get('search') || '';
@@ -21,15 +18,20 @@ export const GET = withRateLimit(100, 60000)(
     const seniority = searchParams.get('seniority') || '';
     const skills = searchParams.get('skills') || '';
 
-    let query = db.collection('resumes');
+    let resumes: Resume[];
 
-    // Get all documents (Firestore doesn't support complex text searches)
-    const snapshot = await query.get();
-
-    let resumes: Resume[] = snapshot.docs.map(doc => ({
-      id: doc.id,
-      ...doc.data()
-    }));
+    if (isFirebaseMockMode()) {
+      console.log('🔄 Using mock data - Firebase not initialized');
+      resumes = mockResumes;
+    } else {
+      console.log('🔥 Using Firebase data');
+      const query = db.collection('resumes');
+      const snapshot = await query.get();
+      resumes = snapshot.docs.map(doc => ({
+        id: doc.id,
+        ...doc.data()
+      }));
+    }
 
     // Apply filters
     if (search) {
@@ -73,4 +75,4 @@ export const GET = withRateLimit(100, 60000)(
       hasMore: start + limit < resumes.length
     }));
   })
-); 
+);
