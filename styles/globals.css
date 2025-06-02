@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%; /* White */
+    --foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --popover: 0 0% 100%; /* White */
+    --popover-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --primary: 238 71% 59%; /* Achieve KA */
+    --primary-foreground: 0 0% 100%; /* White */
+    --secondary: 220 13% 91%; /* Gray 200 */
+    --secondary-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --muted: 210 12% 95%; /* Gray 50 */
+    --muted-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --accent: 238 71% 59%; /* Achieve KA */
+    --accent-foreground: 0 0% 100%; /* White */
+    --destructive: 0 84% 60%; /* Red for errors */
+    --destructive-foreground: 0 0% 100%; /* White */
+    --border: 220 13% 91%; /* Gray 200 */
+    --input: 220 13% 91%; /* Gray 200 */
+    --ring: 238 71% 59%; /* Achieve KA */
+    --chart-1: 43 96% 56%; /* Yellow */
+    --chart-2: 214 95% 67%; /* Blue */
+    --chart-3: 238 71% 59%; /* Achieve KA */
+    --chart-4: 214 88% 60%; /* Royal blue */
+    --chart-5: 239 84% 67%; /* Achieve Mid */
+    --radius: 0.5rem;
+    --sidebar-background: 0 0% 100%; /* White */
+    --sidebar-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --sidebar-primary: 238 71% 59%; /* Achieve KA */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 210 12% 95%; /* Gray 50 */
+    --sidebar-accent-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --sidebar-border: 220 13% 91%; /* Gray 200 */
+    --sidebar-ring: 214 95% 67%; /* Blue */
+  }
+  .dark {
+    --background: 215 25% 7%; /* Gray 950 equivalent */
+    --foreground: 0 0% 100%; /* White */
+    --card: 215 25% 7%; /* Gray 950 equivalent */
+    --card-foreground: 0 0% 100%; /* White */
+    --popover: 215 25% 7%; /* Gray 950 equivalent */
+    --popover-foreground: 0 0% 100%; /* White */
+    --primary: 0 0% 100%; /* White */
+    --primary-foreground: 215 25% 7%; /* Gray 950 equivalent */
+    --secondary: 239 84% 67%; /* Achieve Mid */
+    --secondary-foreground: 0 0% 100%; /* White */
+    --muted: 239 84% 67%; /* Achieve Mid */
+    --muted-foreground: 0 0% 100%; /* White */
+    --accent: 239 84% 67%; /* Achieve Mid */
+    --accent-foreground: 0 0% 100%; /* White */
+    --destructive: 0 62% 31%; /* Darker red for dark mode */
+    --destructive-foreground: 0 0% 100%; /* White */
+    --border: 239 84% 67%; /* Achieve Mid */
+    --input: 239 84% 67%; /* Achieve Mid */
+    --ring: 0 0% 100%; /* White */
+    --chart-1: 43 96% 56%; /* Yellow */
+    --chart-2: 214 95% 67%; /* Blue */
+    --chart-3: 43 96% 56%; /* Yellow */
+    --chart-4: 214 88% 60%; /* Royal blue */
+    --chart-5: 238 71% 59%; /* Achieve KA */
+    --sidebar-background: 215 25% 7%; /* Gray 950 equivalent */
+    --sidebar-foreground: 0 0% 100%; /* White */
+    --sidebar-primary: 214 95% 67%; /* Blue */
+    --sidebar-primary-foreground: 0 0% 100%; /* White */
+    --sidebar-accent: 239 84% 67%; /* Achieve Mid */
+    --sidebar-accent-foreground: 0 0% 100%; /* White */
+    --sidebar-border: 239 84% 67%; /* Achieve Mid */
+    --sidebar-ring: 214 95% 67%; /* Blue */
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}

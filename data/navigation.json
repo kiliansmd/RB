@@ -1,0 +1,7 @@
+[
+  { "id": "highlights", "label": "Highlights" },
+  { "id": "profil", "label": "Profil" },
+  { "id": "ausbildung", "label": "Ausbildung" },
+  { "id": "erfahrung", "label": "Erfahrung" },
+  { "id": "kontakt", "label": "Kontakt" }
+]

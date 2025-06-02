@@ -1,0 +1,191 @@
+{
+  "name": "Kandidat:in A",
+  "position": "Gründer:in & CEO",
+  "gehalt": "Auf Anfrage",
+  "standort": "Köln, Nordrhein-Westfalen",
+  "verfuegbarkeit": "Sofort",
+  "erfahrung": "4+ Jahre",
+  "location": {
+    "address": "Rudolfplatz 3",
+    "postalCode": "50674",
+    "city": "Köln",
+    "countryCode": "DE",
+    "region": "Nordrhein-Westfalen"
+  },
+  "kurzprofil": "Kandidat:in A ist Knilch:in und CEO einer spezialisierten Personalberatung im DACH-Raum, die sich auf IT, Engineering und Sales fokussiert. Mit über vier Jahren Erfahrung in der Leitung von Recruiting-Prozessen hat er/sie innovative Ansätze entwickelt, die messbare Ergebnisse und hohe Prozesssicherheit gewährleisten. Durch ein umfangreiches Netzwerk von über 5.000 qualifizierten Fachkräften und eine datengetriebene Ansprache von passiven Kandidat:innen hat Kandidat:in A sich als vertrauenswürdiger Partner für Unternehmen etabliert, die auf der Suche nach hochqualifizierten Talenten sind. Seine/ihre Expertise erstreckt sich über verschiedene Branchen, darunter Cloud-Technologien, Embedded Systems und Business Development, was ihn/sie zu einem wertvollen Ansprechpartner für Fachbereichsleiter:innen und HR-Manager:innen macht.",
+  "lebenslauf": "Kandidat:in A ist Gründer:in und CEO einer innovativen Personalberatung, die sich auf die Rekrutierung von Fachkräften in den Bereichen IT, Engineering und Sales im DACH-Raum spezialisiert hat. Seit 2021 leitet er/sie erfolgreich die Geschäfte und hat dabei den Rekrutierungsprozess neu definiert, um maximale Prozesssicherheit und nachweisbaren ROI zu gewährleisten. Zuvor sammelte er/sie wertvolle Erfahrungen in verschiedenen Positionen, unter anderem im Projektmanagement bei einem großen Beratungsunternehmen sowie in der Assistenz der Geschäftsführung. Mit einem Bachelor-Abschluss in Wirtschaftsinformatik und einem weiteren in Psychologie bringt Kandidat:in A eine fundierte akademische Grundlage mit, die durch relevante Zertifizierungen, wie die SAP Certified Application Associate, ergänzt wird. Seine/ihre Sprachkenntnisse in Deutsch und Englisch ermöglichen eine effektive Kommunikation in internationalen Kontexten.",
+  "einschaetzung": "Kandidat:in A bringt umfangreiche Erfahrung im Recruiting und eine starke unternehmerische Denkweise mit. Seine/ihre Fähigkeit, maßgeschneiderte Rekrutierungsstrategien zu entwickeln und ein breites Netzwerk von Fachkräften zu nutzen, macht ihn/sie zu einem idealen Partner für Unternehmen, die auf der Suche nach hochqualifizierten Talenten sind. Die Kombination aus technischer Expertise und einem tiefen Verständnis für die Bedürfnisse der Branche positioniert Kandidat:in A als wertvolle Ressource für Fachbereichsleiter:innen und HR-Manager:innen.",
+  "senioritaet": "Senior",
+  "jobrollen": ["Leiter:in Recruiting", "Talent Acquisition Manager", "HR Business Partner"],
+  "kernthemen": ["Recruiting", "Talent Acquisition", "Prozessoptimierung", "Datenanalyse"],
+  "persoenlicheDaten": {
+    "geburtsdatum": "1990",
+    "geburtsort": "Köln",
+    "wohnort": "Köln, Nordrhein-Westfalen",
+    "familienstand": "Ledig"
+  },
+  "softwareKenntnisse": [
+    { "name": "SAP HR", "level": 90 },
+    { "name": "MS Office", "level": 95 },
+    { "name": "Recruiting-Tools", "level": 85 },
+    { "name": "CRM-Systeme", "level": 80 }
+  ],
+  "sprachkenntnisse": [
+    { "sprache": "Deutsch", "niveau": "Muttersprache", "level": 100 },
+    { "sprache": "Englisch", "niveau": "Berufliche Kenntnisse", "level": 85 }
+  ],
+  "highlights": [
+    {
+      "icon": "Users",
+      "title": "5.000+ Talent Pool",
+      "description": "Umfangreiches Netzwerk von über 5.000 qualifizierten Fachkräften",
+      "metric": "5.000+",
+      "label": "Experten im Netzwerk"
+    },
+    {
+      "icon": "TrendingUp",
+      "title": "4+ Jahre CEO Erfahrung",
+      "description": "Erfolgreiche Unternehmensführung seit 2021 mit nachweisbarem ROI",
+      "metric": "4+",
+      "label": "Jahre Führungserfahrung"
+    },
+    {
+      "icon": "Target",
+      "title": "DACH-Raum Expertise",
+      "description": "Spezialisierung auf IT, Engineering und Sales im deutschsprachigen Raum",
+      "metric": "3",
+      "label": "Kernbereiche"
+    },
+    {
+      "icon": "Zap",
+      "title": "Datengetriebene Ansätze",
+      "description": "Innovative Recruiting-Prozesse mit messbaren Ergebnissen",
+      "metric": "100%",
+      "label": "Prozesssicherheit"
+    }
+  ],
+  "topSkills": [
+    {
+      "title": "Recruiting Excellence",
+      "description": "Umfassende Erfahrung in der Rekrutierung von Fachkräften in den Bereichen IT, Engineering und Sales mit innovativen, datengetriebenen Ansätzen.",
+      "keywords": ["Talent Acquisition", "Candidate Experience", "Recruiting-Prozesse"]
+    },
+    {
+      "title": "Strategisches Netzwerk",
+      "description": "Aufbau und Pflege eines umfangreichen Netzwerks von über 5.000 qualifizierten Fachkräften mit fokussierter Ansprache passiver Kandidaten.",
+      "keywords": ["Networking", "Talent Pool", "Candidate Sourcing"]
+    },
+    {
+      "title": "Prozessoptimierung",
+      "description": "Entwicklung und Implementierung innovativer Ansätze für messbare Ergebnisse und maximale Prozesssicherheit im Recruiting.",
+      "keywords": ["Prozessmanagement", "Effizienzsteigerung", "KPI-Tracking"]
+    }
+  ],
+  "work": [
+    {
+      "name": "getexperts GmbH",
+      "position": "Gründer:in & CEO",
+      "startDate": "2021-01-01",
+      "endDate": "Present",
+      "summary": "Spezialisierte Personalberatung für IT, Engineering und Sales im DACH-Raum.",
+      "achievements": [
+        "Aufbau eines Talent Pools mit über 5.000 qualifizierten Fachkräften",
+        "Entwicklung eines datengetriebenen Recruiting-Prozesses",
+        "Etablierung als vertrauenswürdiger Partner für Unternehmen",
+        "Erfolgreiche Vermittlung von 200+ Experten"
+      ]
+    },
+    {
+      "name": "Accenture",
+      "position": "Projektmitarbeiter",
+      "startDate": "2021-04-01",
+      "endDate": "2021-07-01",
+      "summary": "Mitwirkung im Projektmanagement bei einem der führenden Beratungsunternehmen.",
+      "achievements": [
+        "Unterstützung bei der Implementierung von HR-Prozessen",
+        "Mitarbeit an Kundenprojekten im Bereich Talent Management",
+        "Koordination internationaler Projektteams"
+      ]
+    },
+    {
+      "name": "H&PS Project/Program Management Office",
+      "position": "Projektmitarbeiter",
+      "startDate": "2020-10-01",
+      "endDate": "2021-03-01",
+      "summary": "Unterstützung im Projektmanagement mit Fokus auf Prozessoptimierung.",
+      "achievements": [
+        "Koordination von Projektaktivitäten",
+        "Erstellung von Projektdokumentationen",
+        "Stakeholder-Management"
+      ]
+    },
+    {
+      "name": "THE 9TH",
+      "position": "Assistenz der Geschäftsführung",
+      "startDate": "2019-10-01",
+      "endDate": "2020-09-01",
+      "summary": "Strategische Unterstützung der Geschäftsführung in einem innovativen Unternehmen.",
+      "achievements": [
+        "Unterstützung der Geschäftsführung bei strategischen Entscheidungen",
+        "Koordination von Terminen und wichtigen Meetings",
+        "Vorbereitung von Präsentationen und Reports"
+      ]
+    },
+    {
+      "name": "ABRACON GmbH",
+      "position": "Praktikant:in SAP Business Intelligence",
+      "startDate": "2017-02-01",
+      "endDate": "2019-09-01",
+      "summary": "Praktische Erfahrungen im Bereich SAP Business Intelligence und Datenanalyse.",
+      "achievements": [
+        "Unterstützung bei der Implementierung von SAP BI-Lösungen",
+        "Erstellung von Reports und Dashboards",
+        "Datenanalyse und -aufbereitung für Management-Entscheidungen"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Hochschule Bonn-Rhein-Sieg",
+      "url": "",
+      "area": "Wirtschaftsinformatik",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014",
+      "endDate": "2017",
+      "note": "Schwerpunkt: Digitale Transformation und Prozessoptimierung"
+    },
+    {
+      "institution": "FernUniversität in Hagen",
+      "url": "",
+      "area": "Psychologie",
+      "studyType": "Bachelor of Science",
+      "startDate": "2017",
+      "endDate": "2020",
+      "note": "Schwerpunkt: Arbeits- und Organisationspsychologie"
+    }
+  ],
+  "certificates": [
+    {
+      "name": "SAP Certified Application Associate",
+      "date": "2018",
+      "issuer": "SAP",
+      "description": "Zertifizierung in SAP HR und Business Intelligence"
+    },
+    {
+      "name": "Deutschlandstipendium",
+      "date": "2016",
+      "issuer": "Bundesministerium für Bildung und Forschung",
+      "description": "Leistungsstipendium für herausragende Studienleistungen"
+    }
+  ],
+  "languages": [
+    {
+      "language": "Deutsch",
+      "fluency": "Muttersprache"
+    },
+    {
+      "language": "Englisch",
+      "fluency": "Berufliche Kenntnisse"
+    }
+  ]
+}

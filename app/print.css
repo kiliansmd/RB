@@ -1,0 +1,225 @@
+/* Print-spezifische Styles */
+@media print {
+  @page {
+    margin: 1.5cm;
+    size: A4 portrait;
+  }
+
+  /* Grundlegende Druckeinstellungen */
+  body {
+    font-size: 12pt;
+    line-height: 1.5;
+    color: #000;
+    background: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Versteckt Elemente, die nicht gedruckt werden sollen */
+  header,
+  footer,
+  .fixed,
+  .sticky,
+  .no-print,
+  button,
+  a[href="#"],
+  .fixed.bottom-0,
+  .fixed.bottom-6.right-6 {
+    display: none !important;
+  }
+
+  /* Verbesserte Seitenumbruchregeln */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    page-break-after: avoid;
+    break-after: avoid;
+  }
+
+  img,
+  figure,
+  table {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Verhindert Seitenumbrüche innerhalb von wichtigen Elementen */
+  .card,
+  section > div > div,
+  .grid > div {
+    page-break-inside: avoid;
+    break-inside: avoid;
+  }
+
+  /* Erzwingt Seitenumbrüche vor bestimmten Abschnitten */
+  section {
+    page-break-before: always;
+    break-before: always;
+  }
+
+  /* Erste Sektion sollte keinen Seitenumbruch haben */
+  section:first-of-type {
+    page-break-before: avoid;
+    break-before: avoid;
+  }
+
+  /* Setzt die maximale Breite und entfernt unnötige Abstände */
+  main {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Container und Inhaltsbreite anpassen */
+  .container,
+  .max-w-6xl {
+    max-width: 100% !important;
+    width: 100% !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+
+  /* Optimiert Farben für den Druck */
+  * {
+    -webkit-print-color-adjust: exact !important;
+    color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* Verbessert die Darstellung von Links */
+  a {
+    text-decoration: none !important;
+    color: #000 !important;
+  }
+
+  /* Verbessert die Darstellung von Bildern */
+  img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Verbessert die Darstellung von Karten */
+  .card {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+  }
+
+  /* Verbessert die Darstellung von Badges */
+  .badge {
+    border: 1px solid #ddd !important;
+    background-color: #f9f9f9 !important;
+    color: #333 !important;
+  }
+
+  /* Verbessert die Darstellung von Fortschrittsbalken */
+  .progress {
+    border: 1px solid #ddd !important;
+  }
+
+  /* Fügt Seitenzahlen hinzu */
+  @page {
+    @bottom-right {
+      content: counter(page);
+    }
+  }
+
+  /* Fügt Kopfzeile mit Kandidatenname hinzu */
+  @page {
+    @top-center {
+      content: "Kandidatenprofil";
+    }
+  }
+
+  /* Spezifische Anpassungen für den Druck */
+  .bg-black,
+  .bg-gray-950,
+  .bg-purple,
+  [style*="background-color: #0a2e65"] {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  .text-white,
+  .text-gray-200,
+  .text-gray-950 {
+    color: black !important;
+  }
+
+  /* Verbessert die Darstellung von Abschnitten */
+  section {
+    margin: 0 0 1cm 0 !important;
+    padding: 0.5cm 0 !important;
+    background-color: white !important;
+  }
+
+  /* Verbessert die Darstellung von Überschriften */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: black !important;
+  }
+
+  /* Verbessert die Darstellung von Fortschrittsbalken */
+  .progress > div {
+    background-color: #666 !important;
+  }
+
+  /* Verbessert die Darstellung von Badges */
+  .badge {
+    padding: 0.1cm 0.2cm !important;
+    margin: 0.1cm !important;
+  }
+
+  /* Verbessert die Darstellung von Karten */
+  .card-content {
+    padding: 0.3cm !important;
+  }
+
+  /* Verbessert die Darstellung von Grids */
+  .grid {
+    display: block !important;
+  }
+
+  .grid > div {
+    width: 100% !important;
+    margin-bottom: 0.5cm !important;
+  }
+
+  /* Verbessert die Darstellung von Flex-Containern */
+  .flex {
+    display: block !important;
+  }
+
+  /* Ausnahmen für bestimmte Flex-Container */
+  .flex.items-center {
+    display: flex !important;
+  }
+
+  /* Verbessert die Darstellung von Icons */
+  svg {
+    color: black !important;
+  }
+
+  /* Fügt einen Hinweis am Ende des Dokuments hinzu */
+  main::after {
+    content: "Dieses Dokument wurde automatisch generiert. © getexperts GmbH";
+    display: block;
+    text-align: center;
+    margin-top: 1cm;
+    font-size: 10pt;
+    color: #666;
+  }
+}
+
+/* Klasse zum Verstecken von Elementen beim PDF-Export */
+.no-print {
+  display: none !important;
+}
